@@ -15,50 +15,37 @@
 </head>
 
 <body>
-
     <!-- Navbar -->
-
     <nav>
         <div class="nav-wrapper cyan darken-4">
             <div>
-                <a href="#" class="brand-logo center">
-                    Money Tracker
-                </a>
+                <a href="#" class="brand-logo center">Money Tracker</a>
                 <ul class="right">
                     <li>
-                        <a href="#" class="clear-btn btn teal darken-1">
-                            Clear All
-                        </a>
+                        <a href="#" class="clear-btn btn teal darken-1">Clear All</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-
     <div class="container">
-
         <!-- Alert -->
         <div id="custom-alert" class="custom-alert">
             <p id="alert-message">Message here</p>
         </div>
 
-
         <!-- Form Card -->
-
         <div class="card">
             <div class="card-content">
-
-
                 <div class="card-title">Add Task and Money</div>
-
                 <form>
                     <div class="row">
                         <div class="input-field col s6">
-                            <input type="text" placeholder="Add Item" id="item-name">
+                            <input type="text" placeholder="Add Item" id="item-name" />
                         </div>
                         <div class="input-field col s6">
-                            <input type="number" placeholder="Add Money" id="item-money">
+                            <input type="number" placeholder="Add Money" id="item-money" />
                         </div>
                     </div>
 
@@ -78,28 +65,13 @@
             </div>
         </div>
 
-
         <!-- Money Count -->
-        <h3 class="center-align">Total Money : <span class="total-money">
-                0
-            </span></h3>
+        <h3 class="center-align">Total Money : <span class="total-money">0</span></h3>
 
-        <ul id="item-list" class="collection">
-            <!-- <li class="collection-item" id="item-1">
-               <strong>Bike</strong> : <em>300000 rs</em>
-
-               <a href="#" class="secondary-content">
-                <i class="fa-solid fa-pencil edit-item"></i>
-               </a>
-            </li> -->
-        </ul>
-
+        <ul id="item-list" class="collection"></ul>
     </div>
 
-
-
-
-    <!-- Compiled and minified JavaScript -->
+    <!-- JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./app.js"></script>
 </body>
